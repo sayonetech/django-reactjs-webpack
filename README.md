@@ -16,8 +16,11 @@ mkvirtualenv django_react
 pip install -r requirement.txt
 npm install
 python manage.py createsuperuser
+python manage.py migrate
 python manage.py runserver
 ```
+YOu can use any Database here. I have used sqlite3 since it is a sample one.
+
 After completing the above steps you can check whether it is working by open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser. There you can see the sample home page. 
 
 #### To add comments
