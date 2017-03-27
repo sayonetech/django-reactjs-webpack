@@ -24,4 +24,4 @@ After completing the above steps you can check whether it is working by open [ht
 
 Go to http://127.0.0.1:8000/api/comments and there you can add comments. Once you have added comments it will be listed on the home page.  
 
-Whenever running in local run `node server.js` in new tab along with `python manage.py runserver` command. This command is running to avoid running `webpack` command every time after changing Reactfiles.
+Whenever running in local run `node server.js` in new tab along with `python manage.py runserver` command. This is to avoid running `webpack` command every time after changing Reactfiles.
