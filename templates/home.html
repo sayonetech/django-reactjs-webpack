@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% load render_bundle from webpack_loader %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="Title"></div>
+{% render_bundle 'vendors' %}
+{% render_bundle 'HomeApp' %}
+</body>
+</html>
